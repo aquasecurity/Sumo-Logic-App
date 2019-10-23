@@ -47,11 +47,11 @@ event. For example, using one of the following queries –
 
 Use the following query to fetch all images that failed the image assurance policies:
 
-**_sourceCategory="aqua" <br>
-\| json "type","action","result","category","image" <br>
-\| parse "blocking\\\":*," as blocked <br>
-\| where type="alert" and action="policy.failure" and category="image" and result>1 <br>
-\| count_distinct(image,blocked) **
+**_sourceCategory="aqua" 
+\| json "type","action","result","category","image" 
+\| parse "blocking\\\":*," as blocked
+\| where type="alert" and action="policy.failure" and category="image" and result>1 
+\| count_distinct(image,blocked)**
 
 Use the following query to fetch all hosts that failed the host assurance policies:
 
@@ -59,7 +59,7 @@ Use the following query to fetch all hosts that failed the host assurance polici
 | json auto
 | toLowerCase(user) as policy
 | where type="alert" and action="policy.failure" and policy="host.policy" and result>1
-| count_distinct(image) **
+| count_distinct(image)**
 
 Use the following query to fetch all recent runtime security events:
 
@@ -67,7 +67,7 @@ Use the following query to fetch all recent runtime security events:
 | json field=_raw "rule_type", "result", "category"
 | where rule_type="runtime.policy" AND (result=2 or result=3)
 | timeslice 1h
-| count by _timeslice **
+| count by _timeslice**
 
 ## Install the Aqua Security App and View the Dashboards
 To install the app, do the following:
@@ -77,12 +77,12 @@ preview of the dashboards included with the app before installing, click Preview
 
 1. From the App Catalog, search for and select the app.
 1. To install the app, click Add to Library and complete the following fields.
-  1. App Name. You can retain the existing name, or enter a name of your choice for the app.
-  1. Data Source. Select either of these options for the data source.
-    1. Choose Source Category and select the source category you set in the Collect Logs section (e.g. aqua).
-    1. Choose Enter a Custom Data Filter and enter a custom source category beginning with an underscore. Example (_sourceCategory=MyCategory).
-  1. Advanced. Select the Location in Library (the default is the Personal folder in the library) or click New Folder to add a new folder.
-  1. Click Add to Library.
+   1. App Name. You can retain the existing name, or enter a name of your choice for the app.
+   1. Data Source. Select either of these options for the data source.
+       1. Choose Source Category and select the source category you set in the Collect Logs section (e.g. aqua).
+       1. Choose Enter a Custom Data Filter and enter a custom source category beginning with an underscore. Example (_sourceCategory=MyCategory).
+     1. Advanced. Select the Location in Library (the default is the Personal folder in the library) or click New Folder to add a new folder.
+     1. Click Add to Library.
 
 Once an app is installed, it will appear in your Personal folder, or another folder that you specify.
 From here, you can share it with your organization.
