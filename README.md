@@ -18,10 +18,7 @@ The app consists of the following four dashboards:
 |Overview| Provides a comprehensive summary of security events, risks and vulnerabilities in your containerized and cloud native environment, including suspicious and unauthorized runtime activities, as well as images impacted with severe vulnerabilities and compliance issues. It also provides an overview of host compliance issues and nodes failing CIS benchmarks.|
 |Image Security and Compliance| Provides detailed information about image scanning results and assurance events from Aqua such as image vulnerability, malware, exposed sensitive data and compliance issue findings.|
 |Host Security and Compliance|Provides detailed information about nodes/hosts that failed to pass industry benchmarks such as CIS Kubernetes, Docker and Linux standards, as well as the company’s custom compliance regulations.|
-|Runtime Security|Provides detailed information about detected or blocked security events in runtime: 
-- Unregistered or uncompliant images pushed to production 
-- Unauthorized or suspicious programs or file activities 
-- Unauthorized or suspicious network activity|
+|Runtime Security|Provides detailed information about detected or blocked security events in runtime: * Unregistered or uncompliant images pushed to production * Unauthorized or suspicious programs or file activities * Unauthorized or suspicious network activity|
 
 
 
