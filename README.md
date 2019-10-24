@@ -2,7 +2,7 @@
 _This application has been developed by Aqua Security. For technical questions, please contact Aqua Security at
 community.plugins@aquasec.com._
 
-**App page** : ![https://www.sumologic.com/application/aqua-security](https://www.sumologic.com/application/aqua-security)
+**App page** : [https://www.sumologic.com/application/aqua-security](https://www.sumologic.com/application/aqua-security)
 
 **Product Description:** Aqua Security’s Cloud Native Security Platform runs on-premise or in the
 cloud to secure cloud native workloads -- from development in a CI/CD pipeline to production in
