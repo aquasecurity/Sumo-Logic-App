@@ -100,7 +100,7 @@ The Overview dashboard is a holistic dashboard designed to provide DevSecOps tea
 - Image vulnerabilities and risks throughout the CI/CD pipeline
 - Node vulnerabilities, risks, and compliance
 
-![Overview Dashboard](/images/Aqua Security - Overview.png)
+![Overview Dashboard](/images/'Aqua Security - Overview.png')
 
 Use this dashboard to:
 - Get a bird’s-eye view of vulnerabilities, risks, and security events across your cloud native environment
