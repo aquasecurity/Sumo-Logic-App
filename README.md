@@ -22,9 +22,6 @@ The app consists of the following four dashboards:
 |Host Security and Compliance|Provides detailed information about nodes/hosts that failed to pass industry benchmarks such as CIS Kubernetes, Docker and Linux standards, as well as the company’s custom compliance regulations.|
 |Runtime Security|Provides detailed information about detected or blocked security events in runtime: <br>- Unregistered or uncompliant images pushed to production <br>- Unauthorized or suspicious programs or file activities <br>- Unauthorized or suspicious network activity|
 
-## Aqua Application
-Aqua Security’s Cloud Native Security Platform runs on-premise or in the cloud to secure cloud native workloads - from development in a CI/CD pipeline to production in runtime, providing granular visibility into container activity to detect and prevent suspicious activity and attacks. The Aqua Security App for Sumo Logic provides users with a holistic cyber-security monitoring and forensics solution for containerized and Cloud Native applications.
-
 ## Log Types
 The Aqua Security app processes the following logs:
 * Aqua image scanning and assurance test logs
