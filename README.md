@@ -100,7 +100,7 @@ The Overview dashboard is a holistic dashboard designed to provide DevSecOps tea
 - Image vulnerabilities and risks throughout the CI/CD pipeline
 - Node vulnerabilities, risks, and compliance
 
-![Overview Dashboard](/images/'Aqua Security - Overview.png')
+![Overview Dashboard](/images/overview.png)
 
 Use this dashboard to:
 - Get a bird’s-eye view of vulnerabilities, risks, and security events across your cloud native environment
@@ -111,9 +111,31 @@ Use this dashboard to:
 ## Image Security and Compliance Dashboard 
 The Image Security and Assurance dashboard provides a high-level breakdown of the images that failed the security and compliance tests and the failure reasons.
 
+![Image Compliance](/images/imagecompliance.png)
 
+Use this dashboard to:
+- See the list of images that failed to pass the security and compliance tests
+- See which compliance test failed your images
 
+## Host Security and Compliance Dashboard
+The Host Security and Assurance dashboard lists all hosts that failed the host security and compliance tests and provides insights into which tests or benchmarks have failed the host
 
+![Host Compliance](/images/hostcopliance.png)
+
+Use this dashboard to see the list of hosts that have failed security and compliance tests and that expose your applications to risks.
+
+## Runtime Events Dashboard
+The Runtime Events dashboard provides details information about recent runtime security events. The dashboard contains three security events categories:
+1. Unauthorized or unregistered images push to the cluster
+1. Unauthorized or suspicious program execution or file access
+1. Unauthorized or suspicious network activity across the cluster 
+
+![Runtime Dashbaord](/images/runtime.png)
+
+Use this dashboard to:
+- Monitor and respond to real-time threats and attacks
+- Identify and manage rouge images
+- Identify suspicious lateral movement or privilege escalation 
 
 
 ... TBD
