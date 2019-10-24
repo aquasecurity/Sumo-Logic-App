@@ -1,5 +1,5 @@
 # Aqua Security App
-_This application has been developed by Aqua Community. It is competiable with Aqua Cloud Secuirty 4.x version. For technical questions, please contact Aqua Security at community.plugins@aquasec.com._
+_This application has been developed by Aqua Community. It is competiable with Aqua Cloud Native Security Platform 4.x version. For technical questions, please contact Aqua Security at community.plugins@aquasec.com._
 
 
 **App page** : [https://www.sumologic.com/application/aqua-security](https://www.sumologic.com/application/aqua-security)
